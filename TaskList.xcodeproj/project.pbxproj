@@ -10,7 +10,6 @@
 		BC6C91C2204231D6006C692B /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6C91C1204231D6006C692B /* AddViewController.swift */; };
 		BC6C91C42043040A006C692B /* EditCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6C91C32043040A006C692B /* EditCellViewController.swift */; };
 		BC8A668E20348C7300854ADC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8A668D20348C7300854ADC /* AppDelegate.swift */; };
-		BC8A669020348C7300854ADC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8A668F20348C7300854ADC /* ViewController.swift */; };
 		BC8A669320348C7300854ADC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC8A669120348C7300854ADC /* Main.storyboard */; };
 		BC8A669520348C7300854ADC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC8A669420348C7300854ADC /* Assets.xcassets */; };
 		BC8A669820348C7300854ADC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC8A669620348C7300854ADC /* LaunchScreen.storyboard */; };
@@ -45,7 +44,6 @@
 		BC6C91C32043040A006C692B /* EditCellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCellViewController.swift; sourceTree = "<group>"; };
 		BC8A668A20348C7300854ADC /* TaskList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC8A668D20348C7300854ADC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BC8A668F20348C7300854ADC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BC8A669220348C7300854ADC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BC8A669420348C7300854ADC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC8A669720348C7300854ADC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -111,7 +109,6 @@
 			children = (
 				BCF12BF720445EE600433F72 /* fonts */,
 				BC8A668D20348C7300854ADC /* AppDelegate.swift */,
-				BC8A668F20348C7300854ADC /* ViewController.swift */,
 				BC8A669120348C7300854ADC /* Main.storyboard */,
 				BC6C91C32043040A006C692B /* EditCellViewController.swift */,
 				BC6C91C1204231D6006C692B /* AddViewController.swift */,
@@ -292,7 +289,6 @@
 			files = (
 				BC6C91C2204231D6006C692B /* AddViewController.swift in Sources */,
 				BC8A66BE2035048400854ADC /* TaskFrame.swift in Sources */,
-				BC8A669020348C7300854ADC /* ViewController.swift in Sources */,
 				BC8A66BC2035046000854ADC /* TableViewController.swift in Sources */,
 				BC6C91C42043040A006C692B /* EditCellViewController.swift in Sources */,
 				BC8A668E20348C7300854ADC /* AppDelegate.swift in Sources */,

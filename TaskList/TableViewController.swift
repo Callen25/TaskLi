@@ -32,11 +32,6 @@ class TableViewController: UITableViewController {
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
         loadInitialTasks()
     }
-    
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
-
-    }
 
     // MARK: - Table view data source
 
@@ -51,7 +46,7 @@ class TableViewController: UITableViewController {
     }
     
 
-    
+    //This creates the cell in the UI
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = UITableViewCell(style: UITableViewCellStyle.value1, reuseIdentifier: "Cell")
 
@@ -91,19 +86,7 @@ class TableViewController: UITableViewController {
         }
         myTableView.reloadData()
     }
-    
 
-    
-    // Override to support conditional editing of the table view.
-    override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
-        // Return false if you do not want the specified item to be editable.
-        return true
-    }
-    
-
-    
-
-    
     override func tableView(_ tableView: UITableView, editActionsForRowAt: IndexPath) -> [UITableViewRowAction]? {
         let swipeDone = UITableViewRowAction(style: .normal, title: "Done") { action, index in
             let changeCell = self.list[editActionsForRowAt.row]
@@ -117,6 +100,7 @@ class TableViewController: UITableViewController {
         return [swipeDone]
     }
     
+    //Creates the initial placeholder tasks, (yes they are manually presorted)
     func loadInitialTasks()
     {
         let firstDate = Date(timeIntervalSinceNow: 99999 )
@@ -137,23 +121,8 @@ class TableViewController: UITableViewController {
         list += [placehold1, placehold2, placehold3]
     }
     
-
-    /*
-    // Override to support rearranging the table view.
-    override func tableView(_ tableView: UITableView, moveRowAt fromIndexPath: IndexPath, to: IndexPath) {
-
-    }
-    */
-
-    /*
-    // Override to support conditional rearranging of the table view.
-    override func tableView(_ tableView: UITableView, canMoveRowAt indexPath: IndexPath) -> Bool {
-        // Return false if you do not want the item to be re-orderable.
-        return true
-    }
-    */
-    
     // MARK: - Actions
+    //Updates table from a save in the edit tab or the add tab
     @IBAction func unwindToTaskList(sender: UIStoryboardSegue) {
         if let sourceViewController = sender.source as? AddViewController, let addTask =
             sourceViewController.addTask {
@@ -168,14 +137,14 @@ class TableViewController: UITableViewController {
     
     // MARK: - Navigation
     
-
+    //Go to the edit view when a cell is pressed
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print(list.count)
         cellTask = list[indexPath.row]
         thisCellIndex = indexPath
         performSegue(withIdentifier: "editCellSegue", sender: self)
         }
-    
+    //Give edit view the task object
     override func prepare(for segue: UIStoryboardSegue, sender: Any? ) {
         if let editView = segue.destination as? EditCellViewController {
             editView.task = cellTask

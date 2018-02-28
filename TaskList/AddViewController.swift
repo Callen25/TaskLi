@@ -39,11 +39,6 @@ class AddViewController: UIViewController, UITextFieldDelegate, UITextViewDelega
             saveButton.isEnabled = true;
         }
     }
-
-
-    
-    
-    
     
     // MARK: - Navigation
     //Hide view when cancel is pressed
@@ -61,8 +56,6 @@ class AddViewController: UIViewController, UITextFieldDelegate, UITextViewDelega
     }
     
     // MARK: - Navigation
-    
-    
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destinationViewController.

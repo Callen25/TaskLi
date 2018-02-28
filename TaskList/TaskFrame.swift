@@ -4,6 +4,7 @@
 //
 //  Created by Chris Allen on 2/14/18.
 //  Copyright © 2018 Chris Allen. All rights reserved.
+//  Model for the app, basically holds all the variables of a task
 //
 
 import Foundation
