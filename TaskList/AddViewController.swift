@@ -33,10 +33,10 @@ class AddViewController: UIViewController, UITextFieldDelegate, UITextViewDelega
 
     }
     
-    //Enable saveButton once a taskName has been entered
+    //Enable saveButton once a taskName has been entered.
     func textFieldDidEndEditing(_ textField: UITextField) {
         if !saveButton.isEnabled{
-            saveButton.isEnabled = true;
+            saveButton.isEnabled = true
         }
     }
     
