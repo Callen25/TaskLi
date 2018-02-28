@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC6C91C2204231D6006C692B /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6C91C1204231D6006C692B /* AddViewController.swift */; };
+		BC6C91C42043040A006C692B /* EditCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6C91C32043040A006C692B /* EditCellViewController.swift */; };
 		BC8A668E20348C7300854ADC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8A668D20348C7300854ADC /* AppDelegate.swift */; };
 		BC8A669020348C7300854ADC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8A668F20348C7300854ADC /* ViewController.swift */; };
 		BC8A669320348C7300854ADC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC8A669120348C7300854ADC /* Main.storyboard */; };
@@ -14,6 +16,11 @@
 		BC8A669820348C7300854ADC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC8A669620348C7300854ADC /* LaunchScreen.storyboard */; };
 		BC8A66A320348C7300854ADC /* TaskListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8A66A220348C7300854ADC /* TaskListTests.swift */; };
 		BC8A66AE20348C7300854ADC /* TaskListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8A66AD20348C7300854ADC /* TaskListUITests.swift */; };
+		BC8A66BC2035046000854ADC /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8A66BB2035046000854ADC /* TableViewController.swift */; };
+		BC8A66BE2035048400854ADC /* TaskFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8A66BD2035048400854ADC /* TaskFrame.swift */; };
+		BCF12BF920445F0900433F72 /* montserrat-black.otf in Resources */ = {isa = PBXBuildFile; fileRef = BCF12BF820445F0900433F72 /* montserrat-black.otf */; };
+		BCF12BFA204461CB00433F72 /* montserrat-black.otf in Resources */ = {isa = PBXBuildFile; fileRef = BCF12BF820445F0900433F72 /* montserrat-black.otf */; };
+		BCF12BFB204461CC00433F72 /* montserrat-black.otf in Resources */ = {isa = PBXBuildFile; fileRef = BCF12BF820445F0900433F72 /* montserrat-black.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BC6C91C1204231D6006C692B /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		BC6C91C32043040A006C692B /* EditCellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCellViewController.swift; sourceTree = "<group>"; };
 		BC8A668A20348C7300854ADC /* TaskList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC8A668D20348C7300854ADC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC8A668F20348C7300854ADC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,9 @@
 		BC8A66A920348C7300854ADC /* TaskListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC8A66AD20348C7300854ADC /* TaskListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListUITests.swift; sourceTree = "<group>"; };
 		BC8A66AF20348C7300854ADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC8A66BB2035046000854ADC /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		BC8A66BD2035048400854ADC /* TaskFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskFrame.swift; sourceTree = "<group>"; };
+		BCF12BF820445F0900433F72 /* montserrat-black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "montserrat-black.otf"; path = "../../../../../Downloads/montserrat-black.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +109,17 @@
 		BC8A668C20348C7300854ADC /* TaskList */ = {
 			isa = PBXGroup;
 			children = (
+				BCF12BF720445EE600433F72 /* fonts */,
 				BC8A668D20348C7300854ADC /* AppDelegate.swift */,
 				BC8A668F20348C7300854ADC /* ViewController.swift */,
 				BC8A669120348C7300854ADC /* Main.storyboard */,
+				BC6C91C32043040A006C692B /* EditCellViewController.swift */,
+				BC6C91C1204231D6006C692B /* AddViewController.swift */,
 				BC8A669420348C7300854ADC /* Assets.xcassets */,
 				BC8A669620348C7300854ADC /* LaunchScreen.storyboard */,
 				BC8A669920348C7300854ADC /* Info.plist */,
+				BC8A66BB2035046000854ADC /* TableViewController.swift */,
+				BC8A66BD2035048400854ADC /* TaskFrame.swift */,
 			);
 			path = TaskList;
 			sourceTree = "<group>";
@@ -123,6 +140,14 @@
 				BC8A66AF20348C7300854ADC /* Info.plist */,
 			);
 			path = TaskListUITests;
+			sourceTree = "<group>";
+		};
+		BCF12BF720445EE600433F72 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				BCF12BF820445F0900433F72 /* montserrat-black.otf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,20 +213,23 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Chris Allen";
 				TargetAttributes = {
 					BC8A668920348C7200854ADC = {
 						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					BC8A669D20348C7300854ADC = {
 						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 						TestTargetID = BC8A668920348C7200854ADC;
 					};
 					BC8A66A820348C7300854ADC = {
 						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 						TestTargetID = BC8A668920348C7200854ADC;
 					};
@@ -232,6 +260,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCF12BF920445F0900433F72 /* montserrat-black.otf in Resources */,
 				BC8A669820348C7300854ADC /* LaunchScreen.storyboard in Resources */,
 				BC8A669520348C7300854ADC /* Assets.xcassets in Resources */,
 				BC8A669320348C7300854ADC /* Main.storyboard in Resources */,
@@ -242,6 +271,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCF12BFA204461CB00433F72 /* montserrat-black.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +279,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCF12BFB204461CC00433F72 /* montserrat-black.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +290,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC6C91C2204231D6006C692B /* AddViewController.swift in Sources */,
+				BC8A66BE2035048400854ADC /* TaskFrame.swift in Sources */,
 				BC8A669020348C7300854ADC /* ViewController.swift in Sources */,
+				BC8A66BC2035046000854ADC /* TableViewController.swift in Sources */,
+				BC6C91C42043040A006C692B /* EditCellViewController.swift in Sources */,
 				BC8A668E20348C7300854ADC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -325,7 +360,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -333,7 +370,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -376,7 +417,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -384,7 +427,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -418,7 +465,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = chrisallen.TaskList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -430,7 +478,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = chrisallen.TaskList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -443,7 +492,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = chrisallen.TaskListTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaskList.app/TaskList";
 			};
 			name = Debug;
@@ -457,7 +507,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = chrisallen.TaskListTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaskList.app/TaskList";
 			};
 			name = Release;
@@ -470,7 +521,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = chrisallen.TaskListUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 				TEST_TARGET_NAME = TaskList;
 			};
 			name = Debug;
@@ -483,7 +535,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = chrisallen.TaskListUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 				TEST_TARGET_NAME = TaskList;
 			};
 			name = Release;
@@ -507,6 +560,7 @@
 				BC8A66B420348C7300854ADC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC8A66B520348C7300854ADC /* Build configuration list for PBXNativeTarget "TaskListTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +569,7 @@
 				BC8A66B720348C7300854ADC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC8A66B820348C7300854ADC /* Build configuration list for PBXNativeTarget "TaskListUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +578,7 @@
 				BC8A66BA20348C7300854ADC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
